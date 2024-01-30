@@ -105,7 +105,7 @@ fn hello_world() {
         vec![Lang, Kort, Kort],
     ];
 
-    let source = "Hello wolrd";
+    let source = "Hello world";
     let actual = source.to_string().til_morse_code();
 
     assert_eq!(actual, forventet);
